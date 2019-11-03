@@ -16,7 +16,7 @@ hello();
 */
 
 /*
-//Condtional Function
+//Conditional Function
 $current_user = 'Mike';
 function is_mike(){
     //Access variable without argument
@@ -30,6 +30,6 @@ function is_mike(){
 
 //Call function
 is_mike();
-
 */
+
 ?>
