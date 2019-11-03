@@ -41,6 +41,7 @@ function hello($name){
 //Call function and pass argument
 hello('Hampton');
 */
+
 /*
 //Pass in multiple arguments with an array 
 function hello($arr){
@@ -63,5 +64,27 @@ $names = array(
 hello($names);
 */
 
+/*
+
+//No title argument will default as 'friend'
+function get_info($name, $title = 'friend'){
+    echo "$name has arrived, they are with us as a $title.";
+}
+
+get_info('Mike');
+*/
+
+
+//Title argument is optional 
+function get_info($name, $title = null){
+    //Checks $title anything other than null
+    if($title){
+        echo "$name has arrived, they are with us as a $title.";
+    }else{
+        echo "$name has arrived, welcome.";
+    }
+}
+
+get_info('Mike', 'frog');
 
 ?>
