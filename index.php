@@ -1,5 +1,10 @@
 <?php
-/* !Function Intro! */
+/* 
+    !Function Intro!
+    Remove comment blocks
+    to manipulate code. 
+
+*/
 
 /*
 //Simple function
@@ -10,6 +15,7 @@ function hello(){
 hello();
 */
 
+/*
 //Condtional Function
 $current_user = 'Mike';
 function is_mike(){
@@ -25,4 +31,5 @@ function is_mike(){
 //Call function
 is_mike();
 
+*/
 ?>
