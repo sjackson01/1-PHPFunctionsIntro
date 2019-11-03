@@ -41,7 +41,7 @@ function hello($name){
 //Call function and pass argument
 hello('Hampton');
 */
-
+/*
 //Pass in multiple arguments with an array 
 function hello($arr){
     if(is_array($arr)){
@@ -61,5 +61,7 @@ $names = array(
 );
 
 hello($names);
+*/
+
 
 ?>
